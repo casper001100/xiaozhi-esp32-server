@@ -279,7 +279,7 @@ case $MIRROR_CHOICE in
     3) MIRROR_URL="https://docker.mirrors.ustc.edu.cn" ;; 
     4) MIRROR_URL="https://hub-mirror.c.163.com" ;; 
     5) MIRROR_URL="https://05f073ad3c0010ea0f4bc00b7105ec20.mirror.swr.myhuaweicloud.com" ;; 
-    6) MIRROR_URL="https://registry.aliyuncs.com" ;; 
+    6) MIRROR_URL="https://dtr59569.mirror.aliyuncs.com" ;; 
     7) MIRROR_URL=$(whiptail --title "自定义镜像源" --inputbox "请输入完整的镜像源URL:" 10 60 3>&1 1>&2 2>&3) ;; 
     8) MIRROR_URL="" ;; 
 esac
